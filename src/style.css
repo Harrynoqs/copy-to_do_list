@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'inter', sans-serif;
+}
+
+#mainContainer {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #dcdcdc;
+  width: 550px;
+  max-width: 540px;
+  background-color: #e6d7d7;
+  box-shadow: 0 0 36px darkgrey;
+  border-radius: 5px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #dcdcdc;
+  padding: 0 1rem;
+  background-color: #e6d7d7;
+}
+
+.addSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #dcdcdc;
+  padding: 0 1rem;
+  background-color: #e6d7d7;
+}
+
+h1 {
+  color: gray;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: #e6d7d7;
+}
+
+.input {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  font-style: italic;
+  font-family: 'inter', sans-serif;
+  background-color: #e6d7d7;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
+  padding: 1rem 1rem;
+}
+
+.list p {
+  margin-left: 1rem;
+  font-family: 'inter', sans-serif;
+}
+
+i {
+  margin-left: auto;
+  color: gray;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #dcdcdc;
+  background-color: #eee;
+  cursor: pointer;
+  font-family: 'inter', sans-serif;
+}
+
+button {
+  border: none;
+  color: gray;
+  font-size: 1rem;
+  font-family: 'inter', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(71, 67, 67);
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-family: 'inter', sans-serif;
+}
+
+.edit {
+  background-color: lemonchiffon;
+  color: blue;
+}
+
+.edit input {
+  border: none;
+  background-color: lemonchiffon;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: blue;
+  font-style: italic;
+}
+
+input:focus {
+  outline: none;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: red;
+}
+
+.fa-2x {
+  color: red;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.menu-icon {
+  cursor: pointer;
+  color: rgb(60, 60, 59);
+}
+
+#recycle {
+  color: gray;
+  width: 30px;
+  height: 30px;
+}
+
+.heading i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.addSection i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.heading i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+
+#fa-check {
+  color: green;
+  width: 30px;
+  height: 30px;
+}
+
+.addSection i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+}
